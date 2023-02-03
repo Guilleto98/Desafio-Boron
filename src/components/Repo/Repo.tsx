@@ -2,10 +2,10 @@ import {
     Heading,
     Link,
     VStack,
-    useBreakpointValue,
     Spacer,
     Box,
-    Flex
+    Flex,
+    Divider
 } from "@chakra-ui/react";
 
 import ArrowIcon from "./ArrowIcon";
@@ -14,7 +14,6 @@ import ArrowIcon from "./ArrowIcon";
 
 const Repo = () => {
 
-    const isInMobile = useBreakpointValue({ base: true, lg: false });
 
     return(
         <Flex
@@ -50,65 +49,124 @@ const Repo = () => {
                 </Box>
             </Flex>
             <Flex
-            alignItems='center'
-            w={{base:'273px', lg:'1084px'}}
-            justifyContent='space-between'
-            borderTop='1px solid black'
-            paddingTop={{base:'31px', lg:'40px'}}
-            marginBottom={{base:'31px', lg:'40px'}}
+            w='full'
+            flexDirection='column'
             >
-                <Heading
-                as='h2' 
-                fontSize={{base:'23px', lg:'42px'}}>
-                    Autor
-                </Heading>
-                <ArrowIcon/>
+                <Box
+                    paddingRight={{base:'30px', lg:'120px'}}
+                    paddingLeft={{base:'30px', lg:'120px'}}
+                >
+                    <Divider 
+                        border='1px solid black'      
+                    />
+                </Box>
+                <Flex
+                w='full'
+                justifyContent='space-between'
+                alignItems='center'
+                paddingTop={{base:'31px', lg:'40px'}}
+                paddingBottom={{base:'31px', lg:'40px'}}
+                paddingRight={{base:'40px', lg:'160px'}}
+                paddingLeft={{base:'40px', lg:'160px'}}>
+                    <Heading
+                    as='h2' 
+                    fontSize={{base:'23px', lg:'42px'}}>
+                        Autor
+                    </Heading>
+                    <ArrowIcon/>
+                </Flex>
             </Flex>
             <Flex
-            alignItems='center'
-            w={{base:'273px', lg:'1084px'}}
-            justifyContent='space-between'
-            borderTop='1px solid black'
-            paddingTop={{base:'31px', lg:'40px'}}
-            marginBottom={{base:'31px', lg:'40px'}}
+            w='full'
+            flexDirection='column'
             >
-                <Heading
-                as='h2' 
-                fontSize={{base:'23px', lg:'42px'}}>
-                    Título
-                </Heading>
-                <ArrowIcon/>
+                <Box
+                    paddingRight={{base:'30px', lg:'120px'}}
+                    paddingLeft={{base:'30px', lg:'120px'}}
+                >
+                    <Divider 
+                        border='1px solid black'      
+                    />
+                </Box>
+                <Flex
+                w='full'
+                justifyContent='space-between'
+                alignItems='center'
+                paddingTop={{base:'31px', lg:'40px'}}
+                paddingBottom={{base:'31px', lg:'40px'}}
+                paddingRight={{base:'40px', lg:'160px'}}
+                paddingLeft={{base:'40px', lg:'160px'}}>
+                    <Heading
+                    as='h2' 
+                    fontSize={{base:'23px', lg:'42px'}}>
+                        Título
+                    </Heading>
+                    <ArrowIcon/>
+                </Flex>
             </Flex>
             <Flex
-            alignItems='center'
-            w={{base:'273px', lg:'1084px'}}
-            justifyContent='space-between'
-            borderTop='1px solid black'
-            paddingTop={{base:'31px', lg:'40px'}}
-            marginBottom={{base:'31px', lg:'40px'}}
+            w='full'
+            flexDirection='column'
             >
-                <Heading
-                as='h2' 
-                fontSize={{base:'23px', lg:'42px'}}>
-                    Línea de Navegación
-                </Heading>
-                <ArrowIcon/>
+                <Box
+                    paddingRight={{base:'30px', lg:'120px'}}
+                    paddingLeft={{base:'30px', lg:'120px'}}
+                >
+                    <Divider 
+                        border='1px solid black'      
+                    />
+                </Box>
+                <Flex
+                w='full'
+                justifyContent='space-between'
+                alignItems='center'
+                paddingTop={{base:'31px', lg:'40px'}}
+                paddingBottom={{base:'31px', lg:'40px'}}
+                paddingRight={{base:'40px', lg:'160px'}}
+                paddingLeft={{base:'40px', lg:'160px'}}>
+                    <Heading
+                    as='h2' 
+                    fontSize={{base:'23px', lg:'42px'}}>
+                        Línea de Navegación
+                    </Heading>
+                    <ArrowIcon/>
+                </Flex>
             </Flex>
             <Flex
-            alignItems='center'
-            w={{base:'273px', lg:'1084px'}}
-            justifyContent='space-between'
-            borderTop='1px solid black'
-            borderBottom='1px solid black'
-            paddingTop={{base:'31px', lg:'40px'}}
-            paddingBottom={{base:'31px', lg:'40px'}}
+            w='full'
+            flexDirection='column'
             >
-                <Heading
-                as='h2' 
-                fontSize={{base:'23px', lg:'42px'}}>
-                    Descripciones
-                </Heading>
-                <ArrowIcon/>
+                <Box
+                    paddingRight={{base:'30px', lg:'120px'}}
+                    paddingLeft={{base:'30px', lg:'120px'}}
+                >
+                    <Divider 
+                        border='1px solid black'      
+                    />
+                </Box>
+                <Flex
+                w='full'
+                justifyContent='space-between'
+                alignItems='center'
+                paddingTop={{base:'31px', lg:'40px'}}
+                paddingBottom={{base:'31px', lg:'40px'}}
+                paddingRight={{base:'40px', lg:'160px'}}
+                paddingLeft={{base:'40px', lg:'160px'}}>
+                    <Heading
+                    as='h2' 
+                    fontSize={{base:'23px', lg:'42px'}}>
+                        Descripciones
+                    </Heading>
+                    <ArrowIcon/>
+                </Flex>
+                <Box
+                    paddingRight={{base:'30px', lg:'120px'}}
+                    paddingLeft={{base:'30px', lg:'120px'}}
+                >
+                    <Divider 
+                        border='1px solid black'      
+                    />
+                </Box>
             </Flex>
         </Flex>
     )

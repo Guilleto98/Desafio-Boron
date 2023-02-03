@@ -82,7 +82,7 @@ const Footer = () => {
             </Text>
             <Flex gap={{ base: "26px", lg: "42px" }}>
               <YoutubeIcon />
-              <TwitterIcon />
+              <TwitterIcon color='#77D7DB'/>
             </Flex>
           </Flex>
         </Flex>
