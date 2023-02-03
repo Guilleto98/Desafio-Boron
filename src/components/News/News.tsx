@@ -1,5 +1,4 @@
 import { Center, Flex, Grid, Heading } from "@chakra-ui/react";
-import { useEffect } from "react";
 import { newsList } from "./content";
 import NewsBox from "./NewsBox";
 

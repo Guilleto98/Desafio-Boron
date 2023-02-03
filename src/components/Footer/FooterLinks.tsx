@@ -2,6 +2,8 @@ import { Link, VStack } from "@chakra-ui/react";
 import { links } from "./links";
 
 const FooterLinks = () => {
+
+  
   return (
     <VStack
       mt={{ base: "48px", lg: "0" }}
