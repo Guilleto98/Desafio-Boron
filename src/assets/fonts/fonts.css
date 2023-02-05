@@ -8,3 +8,9 @@
 	font-weight: 700;
 	src: url('./OpenSans-Bold.ttf');
 }
+
+@font-face{
+	font-family: 'OpenSans-regular';
+	font-weight: 400;
+	src: url('./OpenSans-Regular.ttf')
+}

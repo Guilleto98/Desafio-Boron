@@ -19,8 +19,7 @@ const Twitter = ()=>{
         <Flex
             w='full'
             bg='#1DA1F2'
-            /* alignItems='center'
-            justifyContent='center' */
+            paddingTop='104px'
             flexDirection='column'>
             <Flex
             alignItems='flex-start'
@@ -29,7 +28,6 @@ const Twitter = ()=>{
             >
                 <Heading 
                     as='h4'
-                    /* w={{base:'208px',lg:'238px'}} */
                     fontSize={{ base: "14px", lg: "16px" }}
                     marginBottom={{ base: "19px", lg: "54px" }}
                     >

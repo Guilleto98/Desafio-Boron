@@ -22,6 +22,7 @@ const Repo = () => {
         justifyContent='center'
         alignItems='center'
         flexDirection='column'
+        paddingTop={{base:'160px', lg:'60px'}}
         >
             <Flex
             w={{base:'318px', lg:'1200px'}}
@@ -39,13 +40,12 @@ const Repo = () => {
                     </Heading>
                 </Box>
                 <Spacer />
-                <Box p='4'>
-                    <Box
+                <Box
                     w={{base:'318px', lg:'206px'}}
-                    fontFamily="OpenSans-semi">
+                    fontFamily="OpenSans-semi"
+                >
                         Repositorio institucional
                         de Boron Studio
-                    </Box>
                 </Box>
             </Flex>
             <Flex
