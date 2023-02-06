@@ -7,10 +7,14 @@ import Repo from "./components/Repo/Repo";
 import TwContainer from "./components/TwContainer/TwContainer";
 import FocusingContainer from "./components/FocusingContainer/FocusingContainer";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Slide from "./components/Slide/Slide";
+import Welcome from "./components/Welcome/Welcome";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
     <Box textAlign="center" fontSize="xl">
+      <Welcome/>
+      <Slide/>
       <AboutUs/>
       <FocusingContainer/>
       <TwContainer/>

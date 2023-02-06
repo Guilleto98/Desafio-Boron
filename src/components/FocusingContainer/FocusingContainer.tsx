@@ -18,10 +18,7 @@ const FocusingContainer = ()=>{
             />
             <Flex
             flexDirection='column'
-            width='full'
-            /* paddingTop={{base:'49px', lg:'104px'}}
-            paddingLeft={{base:'30', lg:'100px'}}
-            paddingRight={{base:'30', lg:'89px'}} */
+            w='full'
             >
                 <Heading 
                     as='h4'
