@@ -10,7 +10,7 @@ const FocusingContainer = ()=>{
     return(
         <Flex
         bg='#77D7DB'
-        flexDirection={{base:'column-reverse', lg:'row'}}
+        flexDirection={{base:'column-reverse', lg:'row-reverse'}}
         >
             <Image
             w='full'
