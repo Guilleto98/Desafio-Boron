@@ -9,10 +9,12 @@ import FocusingContainer from "./components/FocusingContainer/FocusingContainer"
 import AboutUs from "./components/AboutUs/AboutUs";
 import Slide from "./components/Slide/Slide";
 import Welcome from "./components/Welcome/Welcome";
+import Navbar from "./components/Navbar/Navbar";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
     <Box textAlign="center" fontSize="xl">
+      <Navbar/>
       <Welcome/>
       <Slide/>
       <AboutUs/>
