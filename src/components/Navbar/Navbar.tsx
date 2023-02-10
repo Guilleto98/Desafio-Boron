@@ -3,15 +3,27 @@ import {
     Button,
     Flex,
     useBreakpointValue,
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
 } from "@chakra-ui/react"
 
 import { MenuIconOne, MenuIconTwo } from "./MenuIcon";
 import logo from "../../assets/images/brand/blackLogo.png";
 import NavbarLinks from "./NavBarLinks";
 import BoronIcon from "./BoronIcon";
+import { useState } from "react";
+import MenuToggle from "./MenuToggle";
 
 
 const Navbar = ()=>{
+    const [showComponent, setShowComponent] = useState(false)
+
+    const handleClick = () => {
+        setShowComponent(!showComponent);
+      };
+
     const isInMobile = useBreakpointValue({ base: true, lg: false });
 
     return(
@@ -40,25 +52,25 @@ const Navbar = ()=>{
                 paddingRight='13px'
                 marginTop='20px'>
                     <Button
-                    bg='#000000'
-                    w='100px'
-                    h='40px'
-                    borderRadius='60px'
-                    color='#FFFFFF'
-                    fontSize='14px'
-                    >
-                
-                    Menu
-                
-                    <Flex
-                    flexDir='column'
-                    paddingLeft='5px'
-                    justifyContent='space-between'
-                    height='10px'>
-                        <MenuIconOne/>
-                        <MenuIconTwo/>
-                    </Flex>
-                </Button>
+                                bg='#000000'
+                                w='100px'
+                                h='40px'
+                                borderRadius='60px'
+                                color='#FFFFFF'
+                                fontSize='14px'
+                                >
+                            
+                                Menu
+                            
+                                <Flex
+                                flexDir='column'
+                                paddingLeft='5px'
+                                justifyContent='space-between'
+                                height='10px'>
+                                    <MenuIconOne/>
+                                    <MenuIconTwo/>
+                                </Flex>
+                            </Button>
                 </Flex>
             </Flex>
             }
@@ -66,6 +78,8 @@ const Navbar = ()=>{
             {!isInMobile &&
             <Flex
             w='full'
+            flexDir='column'
+            alignItems='flex-end'
             >
                 <Flex
                 w='full'
@@ -122,6 +136,7 @@ const Navbar = ()=>{
                                 borderRadius='60px'
                                 color='#FFFFFF'
                                 fontSize='14px'
+                                onClick={handleClick}
                                 >
                             
                                 Menu
@@ -137,7 +152,7 @@ const Navbar = ()=>{
                             </Button>
                     </Flex> 
                 </Flex>
-
+                {showComponent ? <MenuToggle/> : null}
             </Flex>}
         </>
     )

@@ -121,7 +121,7 @@ const Twitter = ()=>{
                 <Flex
                 w="full"
                 marginTop='63px'
-                marginBottom='105px'
+                marginBottom='92px'
                 justifyContent='space-between'>
                     <LeftArrow/>
                     <RightArrow/>  
