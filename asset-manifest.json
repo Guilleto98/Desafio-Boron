@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Desafio-Boron/static/css/main.11a8011f.css",
+    "main.js": "/Desafio-Boron/static/js/main.38ca2fd7.js",
+    "static/js/787.b2ee10e5.chunk.js": "/Desafio-Boron/static/js/787.b2ee10e5.chunk.js",
+    "static/media/image-8.png": "/Desafio-Boron/static/media/image-8.f1d750e6c9dd69946742.png",
+    "static/media/image-5.png": "/Desafio-Boron/static/media/image-5.78e8558c12f486deaf6a.png",
+    "static/media/image-1.png": "/Desafio-Boron/static/media/image-1.51cac56215dc907d2076.png",
+    "static/media/image-2.png": "/Desafio-Boron/static/media/image-2.e51c5e9a4ce7fef4e54c.png",
+    "static/media/image-3.png": "/Desafio-Boron/static/media/image-3.2bcc35dcb7293f415af3.png",
+    "static/media/image-6.png": "/Desafio-Boron/static/media/image-6.4c7ff0f793fc3b1f5bb3.png",
+    "static/media/image-4.png": "/Desafio-Boron/static/media/image-4.ba0edf5a22aa5390a5c7.png",
+    "static/media/OpenSans-Regular.ttf": "/Desafio-Boron/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/OpenSans-Bold.ttf": "/Desafio-Boron/static/media/OpenSans-Bold.fa428cdd2e334e2be904.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/Desafio-Boron/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
+    "index.html": "/Desafio-Boron/index.html",
+    "main.11a8011f.css.map": "/Desafio-Boron/static/css/main.11a8011f.css.map",
+    "main.38ca2fd7.js.map": "/Desafio-Boron/static/js/main.38ca2fd7.js.map",
+    "787.b2ee10e5.chunk.js.map": "/Desafio-Boron/static/js/787.b2ee10e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11a8011f.css",
+    "static/js/main.38ca2fd7.js"
+  ]
+}
